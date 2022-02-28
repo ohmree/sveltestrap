@@ -51,8 +51,6 @@
         tag = 'textarea';
         break;
       case 'button':
-      case 'reset':
-      case 'submit':
         formControlClass = `btn btn-${color || 'secondary'}`;
         isBtn = true;
         break;
@@ -60,6 +58,8 @@
       case 'image':
         formControlClass = undefined;
         break;
+      case 'reset':
+      case 'submit':
       default:
         formControlClass = 'form-control';
         tag = 'input';

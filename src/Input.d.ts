@@ -51,6 +51,7 @@ export default class Input extends SvelteComponentTyped<
     keyup: WindowEventMap['keyup'];
     change: WindowEventMap['change'];
     input: WindowEventMap['input'];
+    click: WindowEventMap['click'];
   },
   { default: {} }
 > {}

@@ -461,6 +461,7 @@
       on:keydown
       on:keypress
       on:keyup
+      on:click
       {readonly}
       class={classes}
       {name}
